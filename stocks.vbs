@@ -85,7 +85,6 @@ For Each stockSheet In Worksheets
     'format cells to appropriate percent/currency/alignment
     stockSheet.Columns("J").NumberFormat = "$0.00"
     stockSheet.Columns("K").NumberFormat = "0.00%"
-    stockSheet.Columns("K").HorizontalAlignment = xlRight
     stockSheet.Cells.EntireColumn.AutoFit
     stockSheet.Range("Q2, Q3").NumberFormat = "0.00%"
 Next stockSheet
